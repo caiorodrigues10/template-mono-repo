@@ -1,0 +1,17 @@
+{
+  "name": "@template/design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint './**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@template/tsconfig-commons": "*",
+    "@template/eslint-commons": "*"
+  }
+}

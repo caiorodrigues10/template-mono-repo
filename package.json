@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "projects/*",
+      "setup/*"
+    ]
+  },
+  "dependencies": {
+    "eslint": "8.14.0",
+    "prettier": "2.6.2",
+    "@types/node": "^17.0.31",
+    "typescript": "^5.0.4",
+    "@types/styled-components": "5.1.25",
+    "@types/react": "^18.0.8"
+  },
+  "scripts": {
+    "template": "yarn workspace @template/project-template",
+    "dev:project-template": "yarn template dev",
+    "build:project-template": "yarn template build"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.35"
+  }
+}
